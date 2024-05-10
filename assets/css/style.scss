@@ -1,0 +1,49 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  // Make the header take up more of the page
+  @include large {
+    padding: 15rem 6rem;
+  }
+
+  @include medium {
+    padding: 10rem 4rem;
+  }
+
+  @include small {
+    padding: 8rem 1rem;
+  }
+
+  // Adjust the main text font size
+  .project-name {
+    @include large {
+      font-size: 5rem;
+    }
+
+    @include medium {
+      font-size: 4rem;
+    }
+
+    @include small {
+      font-size: 2rem;
+    }
+  }
+
+  // Adjust the tagline font size
+  .project-tagline {
+    @include large {
+      font-size: 2rem;
+    }
+
+    @include medium {
+      font-size: 1.5rem;
+    }
+
+    @include small {
+      font-size: 1rem;
+    }
+  }
+}
