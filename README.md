@@ -41,6 +41,8 @@ If you have ever said or thought out loud "wow all of these tests are tech debt"
 
 > No code? No bugs.
 
+> "Delete as much code as possible, but no more" - Drew Solomon
+
 ## Who is Colden?
 
 Nobody knows. If you figure it out, please alert the authorities.
